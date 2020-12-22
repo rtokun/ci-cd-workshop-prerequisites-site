@@ -8,7 +8,7 @@ authors: Artyom Okun, Nitzan Werber
 <!-- ------------------------ -->
 ## Repository Setup
 
-### In order to save time during the workshop itself, we decided to create these prerequisites that include some environment preparations, which are kind of "standart" and necessary for saving time and focusing during this workshop on what really important. So please follow the instructions carefully and if you have any questions feel free to ask them via [Telegram Channel](https://t.me/joinchat/LTwIFUUp6E4Z5DP7WJYVsA) or [Facebook Group](https://www.facebook.com/groups/android.academy.ils). 
+##### In order to save time during the workshop itself, we decided to create these prerequisites that include some environment preparations, which are kind of "standart" and necessary for saving time and focusing during this workshop on what really important. So please follow the instructions carefully and if you have any questions feel free to ask them via [Telegram Channel](https://t.me/joinchat/LTwIFUUp6E4Z5DP7WJYVsA) or [Facebook Group](https://www.facebook.com/groups/android.academy.ils). 
 
 Duration: 0:05:00
 
