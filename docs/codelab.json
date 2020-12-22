@@ -1,0 +1,17 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-12-22T12:19:04+02:00",
+  "id": "ci-cd-workshop-prerequisites",
+  "duration": 5,
+  "title": "Android Academy CI/CD Workshop Prerequisites",
+  "summary": "",
+  "source": "/Users/artyom/Programming/codelabs/CI_CD_Workshop_new/prerequisites.md",
+  "theme": "",
+  "status": null,
+  "category": null,
+  "tags": [],
+  "url": "ci-cd-workshop-prerequisites"
+}
