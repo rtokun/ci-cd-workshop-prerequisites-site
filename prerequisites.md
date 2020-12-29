@@ -12,10 +12,18 @@ authors: Artyom Okun, Nitzan Werber
 
 Duration: 0:05:00
 
-1. Create a new "Hello World" application in Android Studio.
-2. Build and compile a project.
-3. Create a Github repository for this project. You can follow the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo).
-4. Create first commit (we just want to verify our local copy is synced with remote). From the app root folder, open terminal and run:
+<span>&nbsp;&nbsp;1.</span> Create a new "Hello World" application in Android Studio.<br/>
+<span>&nbsp;&nbsp;2.</span>  Build and compile a project.<br/>
+<span>&nbsp;&nbsp;3.</span>  Create a Github repository for this project. You can follow the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/create-a-repo).<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Please note - during the project creation, do not mark to create any files on your behalf, just leave all checkboxes empty like this one:*<br/>
+ ![image_caption](resources/do-not-mark.png)
+<br/><span>&nbsp;&nbsp;4.</span> Open terminal in Android Studio and run: <br/>
+
+```bash
+mkdir -p .github/workflows && cd .github/workflows && touch test.yaml
+```
+
+<br/><span>&nbsp;&nbsp;5.</span>  Create first commit (we just want to verify our local copy is synced with remote). From the app root folder, open terminal and run:
 
 *Note: pay attention to change a path to Github repository in the next script*
 
@@ -27,6 +35,7 @@ git remote add origin <path to your repository i.e. git@github.com:rtokun/test-1
 git push origin main
 ```
 
+If you wasn't able to commit and push please see troubleshooting <a href="#3" target="_self">here</a> or ask for help in our [Telegram Channel](https://t.me/joinchat/LTwIFUUp6E4Z5DP7WJYVsA) or [Facebook Group](https://www.facebook.com/groups/android.academy.ils).
 
 ## Create Firebase Project
 
@@ -81,3 +90,14 @@ It will open the browser with the Authentication page. Enter your credentials an
 
 #### See you at the workshop! ❤️
 
+## Troubleshooting
+
+#### 403 Failure during push to the remote
+
+1. Please verify that your github credentials are correct.
+2. Try to connect via SSH rather than HTTPS. If you still want to use HTTPS, please use Github private access token instead of password for your account:
+<br/>&nbsp;&nbsp;<span>1.</span> Follow instructions [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token#creating-a-token) to create access token (Please make sure to mark all permissions checkboxes during token creation).
+<br/>&nbsp;&nbsp;<span>2.</span> Go to `Android Studio -> Settings/Preferences -> Version Control -> GitHub`.
+<br/>&nbsp;&nbsp;<span>3.</span> Click the `+` button.
+<br/>&nbsp;&nbsp;<span>4.</span> In the dialog that opens, select `Use token` and paste your token.
+<br/>&nbsp;&nbsp;<span>5.</span> Save and try to push to the repository again.
