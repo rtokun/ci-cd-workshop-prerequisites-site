@@ -56,13 +56,20 @@ If you wasn't able to commit and push please see troubleshooting <a href="#3" ta
 This token allows to 3rd party applications to get access to the Firebase project and make operations. We will use this token in the workshop.
 To get one we need to install the Firebase console client on our local computer and login via client to our Firebase account.
 
-&nbsp;&nbsp;1.</span> Open terminal and enter<br/>
+#### (Mac Users) Firebase CLI installation:
+
+&nbsp;&nbsp;</span> Open terminal and enter<br/>
 
 ``` bash
 curl -sL https://firebase.tools | bash
 ```
 
-&nbsp;&nbsp;<span>2.</span> After successful installation enter in terminal:<br/>
+#### (Windows Users) Firebase CLI installation:
+
+1. Download and install the Firebase CLI binary for Windows from [here](https://firebase.google.com/docs/cli#windows-standalone-binary).
+2. Access the binary, open a shell and verify you can run the `firebase` command.
+
+#### After successful installation enter in terminal:<br/>
 
 ``` bash
 firebase login:ci
@@ -76,7 +83,7 @@ It will open the browser with the Authentication page. Enter your credentials an
 1//03UkAUZpVhigPCgYIARAAGsotbjnrtl;ghkjnrts;lhkjntw;lhknrt;lhbknwrtl;khn;wlr0VcRQiYGtZSpo7DP1aS7X5OdCVJys
 ```
 
-&nbsp;&nbsp;<span>3.</span> Copy this token to safe place, we will use it during workshop.<br/>
+#### Copy this token to safe place, we will use it during workshop.<br/>
 
 ## Summary
 

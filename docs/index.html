@@ -58,10 +58,16 @@ git push origin main
 </ol>
 <h3 is-upgraded>2. Create Firebase Login token</h3>
 <p>This token allows to 3rd party applications to get access to the Firebase project and make operations. We will use this token in the workshop. To get one we need to install the Firebase console client on our local computer and login via client to our Firebase account.</p>
-<p>  1. Open terminal and enter<br></p>
+<h3 is-upgraded>(Mac Users) Firebase CLI installation:</h3>
+<p>   Open terminal and enter<br></p>
 <pre><code language="language-bash" class="language-bash">curl -sL https://firebase.tools | bash
 </code></pre>
-<p>  2. After successful installation enter in terminal:<br></p>
+<h3 is-upgraded>(Windows Users) Firebase CLI installation:</h3>
+<ol type="1">
+<li>Download and install the Firebase CLI binary for Windows from <a href="https://firebase.google.com/docs/cli#windows-standalone-binary" target="_blank">here</a>.</li>
+<li>Access the binary, open a shell and verify you can run the <code>firebase</code> command.</li>
+</ol>
+<h3 is-upgraded>After successful installation enter in terminal:<br></h3>
 <pre><code language="language-bash" class="language-bash">firebase login:ci
 </code></pre>
 <p>It will open the browser with the Authentication page. Enter your credentials and after successful authentication go back to your terminal window, you should see there your token:</p>
@@ -69,7 +75,7 @@ git push origin main
 
 1//03UkAUZpVhigPCgYIARAAGsotbjnrtl;ghkjnrts;lhkjntw;lhknrt;lhbknwrtl;khn;wlr0VcRQiYGtZSpo7DP1aS7X5OdCVJys
 </code></pre>
-<p>  3. Copy this token to safe place, we will use it during workshop.<br></p>
+<h3 is-upgraded>Copy this token to safe place, we will use it during workshop.<br></h3>
 
 
       </google-codelab-step>
