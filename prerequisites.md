@@ -20,7 +20,7 @@ Duration: 0:05:00
 <br/><span>&nbsp;&nbsp;4.</span> Open terminal in Android Studio and run: <br/>
 
 ```bash
-mkdir -p .github/workflows && cd .github/workflows && touch test.yaml
+mkdir -p .github\workflows && cd .github\workflows && copy NUL test.yaml
 ```
 
 <br/><span>&nbsp;&nbsp;5.</span>  Create first commit (we just want to verify our local copy is synced with remote). From the app root folder, open terminal and run:
